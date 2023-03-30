@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using M01S09.Aula02.FluentApi.Models.Configurations;
+using M01S09.Aula02.FluentApi.Models.Configuration;
 
 namespace M01S09.Aula02.FluentApi.Models
 {
@@ -28,6 +29,9 @@ namespace M01S09.Aula02.FluentApi.Models
             modelBuilder.ApplyConfiguration(new CompraConfiguration());
             modelBuilder.ApplyConfiguration(new ClienteConfiguration());
             modelBuilder.ApplyConfiguration(new PromocaoProdutoConfiguration());
+            modelBuilder.ApplyConfiguration(new EnderecoConfiguration());
+            modelBuilder.ApplyConfiguration(new ProdutoConfiguration());
+            modelBuilder.ApplyConfiguration(new PromocaoConfiguration());
         }
     }
 }

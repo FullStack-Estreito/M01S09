@@ -10,8 +10,10 @@ namespace M01S09.Aula02.FluentApi.Models.Configurations
         {
             builder.HasKey(e => e.Id).HasName("PK__Cliente");
 
+            builder.Property(e => e.Nome)
+                .HasMaxLength(150);
+            
             builder.Property(e => e.EnderecoId)
-                .HasMaxLength(150)
                 .HasColumnName("Endereco_Id");
 
             builder.HasOne(x => x.EnderecoDeEntrega)

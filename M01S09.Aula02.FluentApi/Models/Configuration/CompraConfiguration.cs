@@ -9,6 +9,12 @@ namespace M01S09.Aula02.FluentApi.Models.Configurations
         {
             builder.HasKey(x => x.Id);
 
+            builder.Property(p => p.ClienteId)
+                .HasColumnName("Cliente_Id");
+
+            builder.Property(p => p.ProdutoId)
+                .HasColumnName("Produto_Id");
+
             builder.HasOne(x => x.Produtos)
                 .WithMany(p => p.Compras)
                 .HasForeignKey(d => d.ProdutoId)
