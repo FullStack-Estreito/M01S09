@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01S09.Aula01", "M01S09\M01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01S09.Aula02", "M01S09.Aula02\M01S09.Aula02.csproj", "{02AC51D0-B6D3-4BD8-B39B-A90E69F8F726}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01S09.Aula02.FluentApi", "M01S09.Aula02.FluentApi\M01S09.Aula02.FluentApi.csproj", "{161F9651-3511-4D2D-8164-D418723122A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{02AC51D0-B6D3-4BD8-B39B-A90E69F8F726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02AC51D0-B6D3-4BD8-B39B-A90E69F8F726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02AC51D0-B6D3-4BD8-B39B-A90E69F8F726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161F9651-3511-4D2D-8164-D418723122A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161F9651-3511-4D2D-8164-D418723122A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161F9651-3511-4D2D-8164-D418723122A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161F9651-3511-4D2D-8164-D418723122A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
