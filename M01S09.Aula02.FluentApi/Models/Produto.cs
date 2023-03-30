@@ -11,7 +11,7 @@ namespace M01S09.Aula02.FluentApi.Models
 
        public decimal PrecoUnitario { get; set; }
 
-        public ICollection<PromocaoProduto> Promocoes { get; set; }
+        public virtual ICollection<PromocaoProduto> Promocoes { get; set; }
 
         //propriedade de navegação
         public virtual ICollection<Compra> Compras { get; set; }

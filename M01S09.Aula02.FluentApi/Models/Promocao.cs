@@ -9,7 +9,7 @@ namespace M01S09.Aula02.FluentApi.Models
         public DateTime DataTermino { get; set; }
 
         //propriedade de navegação
-        public ICollection<PromocaoProduto> Produtos { get; set; }
+        public virtual ICollection<PromocaoProduto> Produtos { get; set; }
 
         public Promocao()
         {
