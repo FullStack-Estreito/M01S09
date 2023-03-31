@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01S09.Aula02", "M01S09.Aul
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01S09.Aula02.FluentApi", "M01S09.Aula02.FluentApi\M01S09.Aula02.FluentApi.csproj", "{161F9651-3511-4D2D-8164-D418723122A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01S09.Aula03.ExercicioFloricultura", "M01S09.Aula03.ExercicioFloricultura\M01S09.Aula03.ExercicioFloricultura.csproj", "{5B6C0245-D789-4D07-8EFE-BEB2791693FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{161F9651-3511-4D2D-8164-D418723122A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{161F9651-3511-4D2D-8164-D418723122A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{161F9651-3511-4D2D-8164-D418723122A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6C0245-D789-4D07-8EFE-BEB2791693FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6C0245-D789-4D07-8EFE-BEB2791693FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6C0245-D789-4D07-8EFE-BEB2791693FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6C0245-D789-4D07-8EFE-BEB2791693FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

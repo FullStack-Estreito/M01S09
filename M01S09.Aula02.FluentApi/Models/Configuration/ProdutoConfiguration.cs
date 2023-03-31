@@ -9,6 +9,9 @@ namespace M01S09.Aula02.FluentApi.Models.Configuration
         {
             builder.HasKey(x => x.Id);
 
+
+
+            builder.ToTable("Prduto");
         }
     }
 }
