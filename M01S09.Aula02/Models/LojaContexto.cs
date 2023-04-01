@@ -20,7 +20,7 @@ namespace M01S09.Aula02.Models
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{
-        //    optionsBuilder.UseSqlServer("Data Source=LAPTOP-S276V0UN\\SQLEXPRESS;User ID=sa;Password=1234;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+        //    optionsBuilder.UseSqlServer("Data Source=LAPTOP-S276V0UN\\SQLEXPRESS;User ID=sa;Password=****;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
         //}
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
